@@ -1,12 +1,11 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
+  background: #f4f4f4;
 }
 
 header {
-  background-color: #222;
+  background: #222;
   color: white;
   padding: 20px;
   text-align: center;
@@ -23,16 +22,14 @@ nav a:hover {
   text-decoration: underline;
 }
 
-section {
+main {
   padding: 40px;
-  margin: 20px;
   background: white;
+  margin: 20px;
   border-radius: 8px;
 }
 
 footer {
   text-align: center;
   padding: 15px;
-  background: #222;
-  color: white;
 }
