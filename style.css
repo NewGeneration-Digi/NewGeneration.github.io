@@ -6,7 +6,7 @@ body {
 
 header {
   background: #222;
-  color: blue;
+  color: white;
   padding: 20px;
   text-align: center;
 }
@@ -24,7 +24,7 @@ nav a:hover {
 
 main {
   padding: 40px;
-  background: blue;
+  background: white;
   margin: 20px;
   border-radius: 8px;
 }
