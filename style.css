@@ -94,3 +94,13 @@ table img {
   margin: 0 auto;
   border-radius: 5px;
 }
+.logo-container {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.logo {
+  width: 300px; /* Tamaño grande, puedes ajustar */
+  max-width: 80%; /* Se adapta a pantallas pequeñas */
+  height: auto;
+}
