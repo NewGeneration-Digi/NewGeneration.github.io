@@ -42,6 +42,16 @@
 <footer>
   <p>© 2026 - Mi Página Web</p>
 </footer>
+<script>
+  // Obtener el parámetro de la URL
+  const urlParams = new URLSearchParams(window.location.search);
+  const producto = urlParams.get('producto');
+
+  // Si existe el parámetro, ponerlo en el input del formulario
+  if (producto) {
+    document.getElementById('producto').value = producto;
+  }
+</script>
 
 </body>
 </html>
