@@ -45,3 +45,23 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background: #1e3a8a;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background: #f3f4f6;
+}
