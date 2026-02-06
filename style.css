@@ -100,7 +100,7 @@ table img {
 }
 
 .logo {
-  width: 200px; /* Tamaño grande, puedes ajustar */
+  width: 250px; /* Tamaño grande, puedes ajustar */
   max-width: 80%; /* Se adapta a pantallas pequeñas */
   height: auto;
 }
