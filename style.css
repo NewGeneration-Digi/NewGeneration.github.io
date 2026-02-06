@@ -139,3 +139,26 @@ form input {
   border-radius: 5px;
   border: 1px solid #ccc;
 }
+.producto-cell {
+  display: flex;       /* pone todo en fila */
+  align-items: center; /* centra verticalmente la imagen y el botón */
+  gap: 10px;           /* espacio entre imagen y botón */
+}
+
+.producto-cell img {
+  display: block;
+}
+
+.producto-cell button {
+  height: 30px;        /* ajusta altura del botón */
+  background-color: #1e3a8a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.producto-cell button:hover {
+  background-color: #374b9b;
+}
