@@ -65,3 +65,32 @@ th {
 tr:nth-child(even) {
   background: #f3f4f6;
 }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background: #1e3a8a;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background: #f3f4f6;
+}
+
+table img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+}
