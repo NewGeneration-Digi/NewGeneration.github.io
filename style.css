@@ -104,3 +104,16 @@ table img {
   max-width: 80%; /* Se adapta a pantallas pequeñas */
   height: auto;
 }
+button {
+  background-color: #1e3a8a; /* azul */
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #374b9b; /* más oscuro al pasar el mouse */
+}
