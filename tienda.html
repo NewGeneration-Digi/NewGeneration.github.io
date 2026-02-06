@@ -62,6 +62,12 @@
 <footer>
   <p><a href="index.html">← Volver al inicio</a></p>
 </footer>
+<script>
+function comprarProducto(nombre) {
+  // Redirige a compra.html con el producto en la URL
+  window.location.href = 'compra.html?producto=' + encodeURIComponent(nombre);
+}
+</script>
 
 </body>
 </html>
