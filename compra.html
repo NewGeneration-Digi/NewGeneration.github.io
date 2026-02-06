@@ -20,34 +20,32 @@
 <main>
   <h2>Formulario de Compra</h2>
 
- <form action="https://formspree.io/f/xnjbakak" method="POST">
+  <form action="https://formspree.io/f/xnjbakak" method="POST">
+    <label>Producto:</label><br>
+    <input type="text" id="producto" name="producto" required><br><br>
 
-  <label>Producto:</label><br>
-  <input type="text" name="producto" required><br><br>
+    <label>Cantidad:</label><br>
+    <input type="number" id="cantidad" name="cantidad" value="1" min="1"><br><br>
 
-  <label>Cantidad:</label><br>
-  <input type="number" name="cantidad" value="1" min="1"><br><br>
+    <label>Nombre:</label><br>
+    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required><br><br>
 
-  <label>Nombre:</label><br>
-  <input type="text" name="nombre" required><br><br>
+    <label>Email:</label><br>
+    <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required><br><br>
 
-  <label>Email:</label><br>
-  <input type="email" name="email" required><br><br>
-
-  <button type="submit">Finalizar compra</button>
-</form>
-
+    <button type="submit">Finalizar compra</button>
+  </form>
 </main>
 
 <footer>
   <p>© 2026 - Mi Página Web</p>
 </footer>
+
 <script>
-  // Obtener el parámetro de la URL
+  // Captura el producto desde la URL
   const urlParams = new URLSearchParams(window.location.search);
   const producto = urlParams.get('producto');
 
-  // Si existe el parámetro, ponerlo en el input del formulario
   if (producto) {
     document.getElementById('producto').value = producto;
   }
